@@ -1,0 +1,26 @@
+{
+  "name": "x-emoji",
+  "version": "0.0.1",
+  "authors": [
+    "hikarock <i@hika69.com>"
+  ],
+  "description": "A web component to display Emoji",
+  "main": "x-emoji.html",
+  "keywords": [
+    "emoji",
+    "web-components",
+    "polymer"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/hikarock/x-emoji",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "0.2.2"
+  }
+}

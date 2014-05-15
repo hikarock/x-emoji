@@ -1,0 +1,10 @@
+<polymer-element name="x-emoji" attributes="name">
+  <template>
+  <img class="emoji" alt="{{name}}" src="https://raw.githubusercontent.com/arvida/emoji-cheat-sheet.com/master/public/graphics/emojis/{{name}}.png">
+  </template>
+  <script>
+    Polymer('x-emoji', {
+      name: ''
+    });
+  </script>
+</polymer-element>
